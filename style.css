@@ -1,0 +1,98 @@
+/******** BASE ********/
+
+/* Select all elements.
+Set the padding,margin, and box-model*/
+*,
+*::before,
+*::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+/* Select the root element
+Set the font size and box sizing
+ */
+html{
+    font-size: 10px;
+    box-sizing: border-box;
+}
+
+/*Select the body element
+Set the fontsize, font family,line height
+ */
+body{
+    font-family:'Noto Sans JP', sans-serif;
+    font-size: 1.6rem;
+    line-height: 1.6rem;
+}
+
+/********* COMPONENTS ********/
+
+
+/*Select the element with a class name of main
+Create a flexbox with the main axis as the y axis
+ */
+.main{
+    width: 35rem;
+    margin: 2rem auto ;
+    border: .5rem solid rgb(50,50,50);
+    box-shadow: 1rem 1rem 2rem rgb(150,150,150);
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/*Select the element with  class name of heading
+ */
+.heading{
+    align-self: start;
+    text-shadow: .2rem .2rem .4rem rgb(150,150,150);
+    padding: 0 2.5rem;
+    margin: 4rem 0;
+
+}
+
+/* select the element with a class name of image
+ */
+.img {
+   width: 30rem;
+    height: auto;
+}
+
+/*Select the element with a class name of description
+ */
+.description{
+    width: 30rem;
+    border: .25rem solid rgb(150,150,150);
+    padding: 1rem;
+    margin: 2rem 0;
+}
+
+/*Select the element with a class name of description__interesting-fact
+ */
+.description__interesting-fact{
+    font-style: italic;
+    margin-bottom: 2rem;
+}
+
+/*Select the element with a class name of bio
+ */
+.bio{
+    list-style: none;
+    margin-bottom: 2rem;
+}
+
+/*Select the element with a class name of bio__info
+ */
+.bio__info{
+    margin-bottom: .5rem;
+}
+
+/*Select the element with a class name of label
+ */
+.label{
+    font-weight: bold;
+    margin-right: .5rem;
+}
