@@ -1,0 +1,5 @@
+# directories
+mode_modules
+
+# mac specific
+.DS_Store
